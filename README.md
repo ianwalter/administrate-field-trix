@@ -1,6 +1,7 @@
-# Administrate::Field::Trix
+# administrate-field-trix
+> A plugin to use the [Trix](https://trix-editor.org) WYSIWYG editor within in [Administrate](https://github.com/thoughtbot/administrate).
 
-A plugin to use the [Trix] WYSIWYG editor within in [Administrate].
+**Forked from [headwayio/administrate-field-trix](https://github.com/headwayio/administrate-field-trix)**
 
 ## Install
 
@@ -19,18 +20,10 @@ $ bundle install
 
 ## Usage
 
-Add a WYSIWYG field to your `FooDashboard`:
+Add a Trix field to `app/dashboards/foo_dashboard.rb`:
 
 ```ruby
 ATTRIBUTE_TYPES = {
   bar: Field::Trix
 }.freeze
 ```
-
-## About
-
-`Administrate::Field::Trix` is maintained by [headway].
-
-[Trix]: http://trix-editor.org/
-[Administrate]: https://github.com/thoughtbot/administrate
-[headway]: https://headway.io
