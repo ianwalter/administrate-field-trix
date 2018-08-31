@@ -5,11 +5,12 @@
 
 ## Install
 
-Add `administrate-field-trix` and `trix` to your `Gemfile`:
+Add [trix-rails](https://github.com/kylefox/trix/) and `administrate-field-trix`
+to your `Gemfile`:
 
 ```ruby
+gem 'trix-rails', require: 'trix'
 gem 'administrate-field-trix'
-gem 'trix'
 ```
 
 Install:
