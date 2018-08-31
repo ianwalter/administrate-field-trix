@@ -1,17 +1,9 @@
 @import 'trix';
 
-.trix-content ul li, .trix-content ol li, .trix-content li li {
-  margin-left: 2em;
+.field-unit--trix .field-unit__field {
+  width: 83%;
 }
 
-ul li, ol li, li li {
-  margin-left: 2em;
-}
-
-ul {
-  list-style-type: disc;
-}
-
-ol {
-  list-style-type: decimal;
+.trix-content {
+  min-height: 22rem;
 }
