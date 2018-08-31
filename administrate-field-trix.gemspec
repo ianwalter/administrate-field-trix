@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-trix'
   gem.version = '0.0.1'
-  gem.authors = ['Ian Walter']
+  gem.authors = ['Ian Walter', 'Noah Settersten']
   gem.email = ['public@iankwalter.com']
   gem.homepage = 'https://github.com/appjumpstart/administrate-field-trix'
   gem.summary = 'A plugin to use the Trix WYSIWYG editor in Administrate'
