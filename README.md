@@ -28,3 +28,10 @@ ATTRIBUTE_TYPES = {
   bar: Field::Trix
 }.freeze
 ```
+
+If you're using the Rails asset pipeline, add the following to `app/assets/config/manifest.js`:
+
+```js
+//= link administrate-field-trix/application.css
+//= link administrate-field-trix/application.js
+```
