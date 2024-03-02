@@ -1,7 +1,7 @@
 # administrate-field-trix
 > A plugin to use the [Trix](https://trix-editor.org) WYSIWYG editor within in [Administrate](https://github.com/thoughtbot/administrate).
 
-**Forked from [https://github.com/ianwalter/administrate-field-trix](https://github.com/ianwalter/administrate-field-trix)**
+**Forked from [headwayio/administrate-field-trix](https://github.com/headwayio/administrate-field-trix)**
 
 ## Install
 
